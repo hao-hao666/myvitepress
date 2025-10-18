@@ -4,7 +4,7 @@ import { set_sidebar } from "./utils/auto-sidebar.mjs";	// 改成自己的路径
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/myvitepress/",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/myvitepress/logo.png" }]],
   title: "我的文档网站",
   description: "A VitePress Site",
   themeConfig: {
