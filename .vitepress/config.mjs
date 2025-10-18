@@ -47,7 +47,7 @@ export default defineConfig({
       },
       { text: "python", 
         items: [
-          {text:"python基础", link: "/code/python基础/"}
+          {text:"python基础", link: "/code/python/"}
         ]
       },
       // { text: "自动生成侧边栏2", link: "/backend/rabbitmq/" },
