@@ -74,10 +74,10 @@ export default defineConfig({
     //     ]
     //   },
     // ],
-    sidebar: {
-      "front-end/react": set_sidebar("/front-end/react"),
-      "backend/rabbitmq": set_sidebar("/backend/rabbitmq"),
-    },
+    // sidebar: {
+    //   "front-end/react": set_sidebar("/front-end/react"),
+    //   "backend/rabbitmq": set_sidebar("/backend/rabbitmq"),
+    // },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
