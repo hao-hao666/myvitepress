@@ -7,7 +7,7 @@ hero:
   # text: "A VitePress Site"
   tagline: 持续学习，持续进步
   image: 
-    src: /logo.png
+    src: /background.png
     alt: 背景图
   actions:
     - theme: brand
