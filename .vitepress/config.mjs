@@ -35,16 +35,27 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '家',
+      { text: "Java", 
         items: [
-          {text: "首页", link: "/"},
-          { text: "markdown示例", link: "/markdown-examples"},
-        ],
+          {text:"java基础", link: "/code/Java/"}
+        ]
       },
-      { text: "markdown示例", link: "/markdown-examples" },
-      { text: "自动生成侧边栏", link: "/front-end/react/" },
-      { text: "自动生成侧边栏2", link: "/backend/rabbitmq/" },
-      { text: "两边栏演示", link: "/两边栏演示" },
+      { text: "C语言", 
+        items: [
+          {text:"数据结构", link: "/code/c语言/"}
+        ]
+      },
+      { text: "python", 
+        items: [
+          {text:"python基础", link: "/code/python基础/"}
+        ]
+      },
+      { text: "其他", 
+        items: [
+          {text:"操作手册", link: "/操作手册"}
+        ]
+      },
+      // { text: "自动生成侧边栏2", link: "/backend/rabbitmq/" },
     ],
 
     // sidebar: [
