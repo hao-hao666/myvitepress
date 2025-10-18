@@ -9,13 +9,13 @@ hero:
   image: 
     src: /background.png
     alt: 背景图
-  actions:
-    - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
-    - theme: alt
-      text: API 示例
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: Markdown 示例
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: API 示例
+  #     link: /api-examples
 
 features:
   - title: 💡 小建议
