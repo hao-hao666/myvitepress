@@ -56,7 +56,7 @@ features:
 config.mjs文件
 ```
 import { defineConfig } from 'vitepress';
-import { set_sidebar } from "./utils/auto-sidebar.mjs";	// 改成自己的路径
+import { set_sidebar } from "./utils/auto-sidebar.mjs";	// 改成自己的路径，util文件是自己建的，在.vitepress目录下
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -69,7 +69,7 @@ export default defineConfig({
     aside: "left", // 设置右侧侧边栏在左侧显示
     outlineTitle:"目录",
     outline:[2,6],
-    logo: "logo.png",
+    logo: "logo.png",  //这些图片放在public目录下，public文件是自己创建的
        // 设置搜索框的样式
     search: {
       provider: "local",
@@ -353,7 +353,7 @@ jobs:
 ```
 若自定义域名另外需要把base（GitHub仓库地址）给注释掉（不然css文件和页面都找不到）
 
-#### 补充
+### 补充
 如果你想要配置mermaid支持(这是一个可以使用md语法绘制流程图，饼状图的md扩展),需要按照下面的步骤操作。 安装
 ```
 npm i vitepress-plugin-mermaid mermaid -D
@@ -380,7 +380,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
   },
 ```
 
-##### 使用到的工具
+### 使用到的工具
 [icon网站](https://www.iconfont.cn/)
 vscode与GitHub仓库connect失败，无法push
 解决：
