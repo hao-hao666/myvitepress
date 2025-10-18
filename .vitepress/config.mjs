@@ -35,22 +35,11 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Java", 
+      { text: "MD笔记", 
         items: [
-          {text:"java基础", link: "/code/Java/"}
+          {text:"vitepress", link: "/MD/vitepress"},
         ]
       },
-      { text: "C语言", 
-        items: [
-          {text:"数据结构", link: "/code/c语言/"}
-        ]
-      },
-      { text: "python", 
-        items: [
-          {text:"python基础", link: "/code/python/"}
-        ]
-      },
-      // { text: "自动生成侧边栏2", link: "/backend/rabbitmq/" },
     ],
 
     // sidebar: [
