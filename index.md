@@ -11,8 +11,8 @@ hero:
     alt: 背景图
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
+      text: 个人简历
+      link: /
     # - theme: alt
     #   text: API 示例
     #   link: /api-examples
