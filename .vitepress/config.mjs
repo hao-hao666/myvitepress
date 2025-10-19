@@ -35,11 +35,46 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "MD笔记", 
+      { text: "前端", 
         items: [
-          {text:"vitepress", link: "/MD/vitepress"},
+          
+        ]
+      },
+      { text: "后端", 
+        items: [
+          
+        ]
+      },
+      { text: "算法", 
+        items: [
+         
+        ]
+      },
+      { text: "系统与底层", 
+        items: [
+         
+        ]
+      },
+      { text: "网络与运维", 
+        items: [
           {text:"git", link: "/MD/Git"},
           {text:"shell", link: "/MD/shell"},
+        ]
+      },
+      { text: "数据与智能", 
+        items: [
+          
+        ]
+      },
+      { text: "图形与多媒体", 
+        items: [
+          
+        ]
+      },
+      { text: "其他", 
+        items: [
+          {text:"vitepress", link: "/MD/vitepress"},
+          
         ]
       },
     ],
