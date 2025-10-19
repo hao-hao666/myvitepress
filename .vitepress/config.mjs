@@ -38,7 +38,8 @@ export default defineConfig({
       { text: "MD笔记", 
         items: [
           {text:"vitepress", link: "/MD/vitepress"},
-          {text:"git笔记", link: "/MD/Git"},
+          {text:"git", link: "/MD/Git"},
+          {text:"shell", link: "/MD/shell"},
         ]
       },
     ],
