@@ -1,6 +1,6 @@
 # Cloudflare 高速免费VPN！速度极快、自动优选IP、无限流量！海量节点随便用，秒开4K、8K视频！
 
-[零度链接](https://www.freedidi.com/21262.htm )
+[零度链接](https://www.freedidi.com/21262.html )
 
 1. 打开cloud flare，选择workers and pages，选择workers，从hello world开始
 
