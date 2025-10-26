@@ -73,8 +73,8 @@ export default defineConfig({
       },
       { text: "其他", 
         items: [
-          {text:"vitepress", link: "/MD/vitepress"},
-          
+          {text:"vitepress教程", link: "/MD/vitepress"},
+          {text:"cloudflareVPN教程", link: "/MD/cloudflareVPN"},
         ]
       },
     ],
