@@ -59,6 +59,7 @@ export default defineConfig({
         items: [
           {text:"git", link: "/MD/Git"},
           {text:"shell", link: "/MD/shell"},
+          {text:"Vps", link: "/MD/vps"},
         ]
       },
       { text: "数据与智能", 
