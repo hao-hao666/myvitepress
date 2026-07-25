@@ -112,7 +112,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      copyright: "Copyright@ 2026 haohao",
+      copyright: "Copyright@ 2026 haohao666",
     },
   }
 })
