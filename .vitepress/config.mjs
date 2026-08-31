@@ -78,6 +78,7 @@ export default defineConfig({
           {text:"CloudFlareVPN教程", link: "/MD/cloudflareVPN"},
           {text:"Fiddler教程", link: "/MD/fiddler"},
           {text:"TG图床教程", link: "/MD/TG图床"},
+          {text:"博客配置备份", link: "/MD/网站备份"},
         ]
       },
     ],
